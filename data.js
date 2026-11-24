@@ -45,12 +45,12 @@ const CONFIG = {
 
   // Argumentos reales tomados de la gráfica "¿Por qué nuestras mesas son las mejores del mercado?"
   ventajas: [
-    { titulo: "Acero 12 línea pesada", texto: "La resistencia que necesitás para trabajar todos los días.", icono: "acero" },
-    { titulo: "Sin madera", texto: "Nuestras mesas llevan refuerzos de acero: nada se pudre ni se hincha.", icono: "madera" },
-    { titulo: "Patas de caño 40×40", texto: "Caño cuadrado de 40×40 mm para una estabilidad absoluta, sin tambaleos.", icono: "patas" },
-    { titulo: "Más de 300 kg", texto: "Ideales para amasar, depositar y hacer trabajos pesados sin problemas.", icono: "peso" },
-    { titulo: "100% higiénicas", texto: "Fáciles de limpiar, perfectas para uso profesional e industrial.", icono: "higiene" },
-    { titulo: "Todo a medida", texto: "Mesas, topineras, bachas y campanas con las medidas de tu cocina.", icono: "medida" },
+    { big: "12", sub: "línea pesada", titulo: "Acero 12 línea pesada", texto: "La resistencia que necesitás para trabajar todos los días.", icono: "acero" },
+    { big: "0", sub: "madera", titulo: "Sin madera", texto: "Refuerzos de acero: nada se pudre ni se hincha.", icono: "madera" },
+    { big: "40×40", sub: "mm de caño", titulo: "Patas de caño cuadrado", texto: "Estabilidad absoluta, sin tambaleos.", icono: "patas" },
+    { big: "+300", sub: "kg de carga", titulo: "Aguantan el trabajo pesado", texto: "Ideales para amasar, depositar y trabajar sin problemas.", icono: "peso" },
+    { big: "100%", sub: "higiénicas", titulo: "Fáciles de limpiar", texto: "Perfectas para uso profesional e industrial.", icono: "higiene" },
+    { big: "A", sub: "tu medida", titulo: "Todo a medida", texto: "Mesas, topineras, bachas y campanas para tu cocina.", icono: "medida" },
   ],
 
   pasos: [
